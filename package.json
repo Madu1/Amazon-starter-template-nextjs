@@ -7,6 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "node-sass": "^7.0.1",
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "1.9.5",
     "@tailwindcss/line-clamp": "^0.4.4",
