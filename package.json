@@ -9,7 +9,9 @@
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "1.9.5",
+    "@stripe/stripe-js": "^1.53.0",
     "@tailwindcss/line-clamp": "^0.4.4",
+    "axios": "^1.4.0",
     "firebase": "^9.21.0",
     "firebase-admin": "^11.8.0",
     "next": "latest",
@@ -21,7 +23,8 @@
     "react-dom": "18.2.0",
     "react-redux": "8.0.5",
     "react-responsive-carousel": "^3.2.23",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "stripe": "^12.5.0"
   },
   "license": "MIT",
   "devDependencies": {
