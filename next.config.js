@@ -4,5 +4,11 @@ module.exports = {
     },
     env:{
         stripe_public_key: process.env.STRIPE_PUBLIC_KEY
-    }
+    },
+    webpack5: true,
+    webpack: (config) => {
+        config.resolve.fallback = { fs: false };
+
+    return config;
+  },
 };
